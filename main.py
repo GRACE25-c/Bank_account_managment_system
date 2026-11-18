@@ -4,6 +4,7 @@ from SavingsAccount import SavingsAccount
 ca1=CurrentAccount(100000)
 ca1.deposit()
 ca1.display_balance()
+
 ca1.withdraw(5000)
 ca1.calculate_interest()
 
@@ -29,3 +30,5 @@ sa1.calculate_interest()
 # withdrawal amount is : 5000 
 #  current balance is:  195000
 # interest amount:  9750.0
+
+print("stop")
